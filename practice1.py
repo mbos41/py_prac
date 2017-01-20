@@ -34,4 +34,37 @@ def in_both(word1, word2):
         if letter in word2:
             print letter
             
-in_both('michael', 'sarah')
+#in_both('michael', 'sarah')
+
+eng2sp = dict()
+eng2sp['one'] = 'uno'
+eng2sp = {'one': 'uno', 'two': 'dos', 'three': 'tres'}
+
+vals = eng2sp.values()
+#print vals
+
+def histogram(s):
+	d = dict()
+	for c in s:
+		if c not in d:
+			d[c] = 1
+		else:
+			d[c] += 1
+	return d
+	
+h = histogram('brontosaurus')
+#print h
+
+addr = 'monty@python.org'
+uname, domain = addr.split('@')
+print uname, domain
+
+
+
+
+
+
+
+
+
+
