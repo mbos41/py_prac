@@ -1,3 +1,3 @@
-# py_prac
+# Python Practice
 
-General python practice
+Various python scripts to practice.
